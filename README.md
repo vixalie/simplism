@@ -15,14 +15,14 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `Center`
 - [ ] `AspectRatio`
 - [ ] `Grid`
-- [ ] `Space`
+- [x] `Space`
 
 ### Display Components
 
 - [ ] `Progress`
 - [ ] `RingProgress`
 - [ ] `SemiCircleProgress`
-- [ ] `Avatar`
+- [x] `Avatar`
 - [ ] `Badge`
 - [ ] `Image`
 - [ ] `Indicator`
