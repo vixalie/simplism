@@ -1,4 +1,4 @@
-# simplism
+# Simplism UI
 
 A simple React UI Framework base on Emotion.
 
@@ -8,71 +8,71 @@ The framework provides the following commonly used components for quickly buildi
 
 ### Layout Components
 
-- [] `Flex`
-- [] `Column`
-- [] `Row`
-- [] `Container`
-- [] `Center`
-- [] `AspectRatio`
-- [] `Grid`
-- [] `Space`
+- [ ] `Flex`
+- [ ] `Column`
+- [ ] `Row`
+- [ ] `Container`
+- [ ] `Center`
+- [ ] `AspectRatio`
+- [ ] `Grid`
+- [ ] `Space`
 
 ### Display Components
 
-- [] `Progress`
-- [] `RingProgress`
-- [] `SemiCircleProgress`
-- [] `Avatar`
-- [] `Badge`
-- [] `Image`
-- [] `Indicator`
-- [] `Card`
-- [] `Paper`
-- [] `Accordin`
-- [] `List`
-- [] `Description`
-- [] `Table`
-- [] `ScrollArea`
-- [] `Divider`
-- [] `Collapse`
-- [] `Transition`
+- [ ] `Progress`
+- [ ] `RingProgress`
+- [ ] `SemiCircleProgress`
+- [ ] `Avatar`
+- [ ] `Badge`
+- [ ] `Image`
+- [ ] `Indicator`
+- [ ] `Card`
+- [ ] `Paper`
+- [ ] `Accordin`
+- [ ] `List`
+- [ ] `Description`
+- [ ] `Table`
+- [ ] `ScrollArea`
+- [ ] `Divider`
+- [ ] `Collapse`
+- [ ] `Transition`
 
 ### Navigation Components
 
-- [] `Anchor`
-- [] `Tab`
-- [] `Pagination`
-- [] `Stepper`
-- [] `Tree`
+- [ ] `Anchor`
+- [ ] `Tab`
+- [ ] `Pagination`
+- [ ] `Stepper`
+- [ ] `Tree`
 
 ### Form Components
 
-- [] `Button`
-- [] `Button.Group`
-- [] `Check`
-- [] `Check.Group`
-- [] `Radio`
-- [] `Radio.Group`
-- [] `Input`
-- [] `Textarea`
-- [] `Pin`
-- [] `Switch`
-- [] `Combobox`
-- [] `Select`
-- [] `Chip`
-- [] `Slider`
+- [ ] `Button`
+- [ ] `Button.Group`
+- [ ] `Check`
+- [ ] `Check.Group`
+- [ ] `Radio`
+- [ ] `Radio.Group`
+- [ ] `Input`
+- [ ] `Textarea`
+- [ ] `Pin`
+- [ ] `Switch`
+- [ ] `Combobox`
+- [ ] `Select`
+- [ ] `Chip`
+- [ ] `Slider`
 
 ### Feedback and Overlay Components
 
-- [] `Overlay`
-- [] `Confirm`
-- [] `Modal`
-- [] `Popover`
-- [] `Tooltip`
-- [] `Loading`
-- [] `Alert`
-- [] `Notification`
-- [] `Drawer`
+- [ ] `Overlay`
+- [ ] `Confirm`
+- [ ] `Modal`
+- [ ] `Popover`
+- [ ] `Tooltip`
+- [ ] `Loading`
+- [ ] `Alert`
+- [ ] `Notification`
+- [ ] `Drawer`
 
 ## Util Functions
 
