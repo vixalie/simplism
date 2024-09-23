@@ -26,3 +26,5 @@ import { CreateStyled } from '@emotion/styled';
 declare const styled: CreateStyled;
 
 export { styled };
+
+export { Space } from './components/Space';
