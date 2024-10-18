@@ -55,8 +55,10 @@ declare const styled: CreateStyled;
 
 export { styled };
 
+export { Button } from './components/Button';
 export { Space } from './components/Space';
 export { Box } from './layout/Box';
 export { Center } from './layout/Center';
 export { Flex, FlexItem } from './layout/Flex';
 export { Grid } from './layout/Grid';
+export { Group } from './layout/Group';

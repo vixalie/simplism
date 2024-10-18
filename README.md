@@ -10,7 +10,6 @@ The framework provides the following commonly used components for quickly buildi
 
 - [x] `Flex`
 - [ ] `Column`
-- [ ] `Row`
 - [ ] `Container`
 - [x] `Center`
 - [ ] `AspectRatio`
@@ -48,12 +47,10 @@ The framework provides the following commonly used components for quickly buildi
 
 ### Form Components
 
-- [ ] `Button`
-- [ ] `Button.Group`
+- [x] `Button`
 - [ ] `Check`
-- [ ] `Check.Group`
 - [ ] `Radio`
-- [ ] `Radio.Group`
+- [x] `Group`
 - [ ] `Input`
 - [ ] `Textarea`
 - [ ] `Pin`
