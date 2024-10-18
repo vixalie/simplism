@@ -57,5 +57,6 @@ export { styled };
 
 export { Space } from './components/Space';
 export { Box } from './layout/Box';
+export { Center } from './layout/Center';
 export { Flex, FlexItem } from './layout/Flex';
 export { Grid } from './layout/Grid';

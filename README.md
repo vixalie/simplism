@@ -12,7 +12,7 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `Column`
 - [ ] `Row`
 - [ ] `Container`
-- [ ] `Center`
+- [x] `Center`
 - [ ] `AspectRatio`
 - [x] `Grid`
 - [x] `Space`
