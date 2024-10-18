@@ -10,7 +10,7 @@ export type {
   TitleLevel,
 } from '@emotion/react';
 export { ThemeProvider } from './global-style';
-export { mq } from './utils/style-predefines';
+export { mq } from './utils/predefines';
 export { isFontSizeUnit, isMeasureUnit } from './utils/type-determine';
 export type { AvailableColor, ColorNameChoice } from './utils/types';
 export {

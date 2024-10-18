@@ -1,6 +1,6 @@
 import type { Theme } from '@emotion/react';
 import chroma from 'chroma-js';
-import { generatePalette } from './utils/style-predefines';
+import { generatePalette } from './utils/predefines';
 
 const colors: Theme['colors'] = {
   dark: generatePalette('#c9c9c9', '#141414'),
