@@ -30,6 +30,10 @@ const genericCSSProperties: {
   mr: 'marginRight',
   mb: 'marginBottom',
   ml: 'marginLeft',
+  mbs: 'marginBlockStart',
+  mis: 'marginInlineStart',
+  mbe: 'marginBlockEnd',
+  mie: 'marginInlineEnd',
   mx: ['marginLeft', 'marginRight'],
   my: ['marginTop', 'marginBottom'],
   p: 'padding',
@@ -37,6 +41,10 @@ const genericCSSProperties: {
   pr: 'paddingRight',
   pb: 'paddingBottom',
   pl: 'paddingLeft',
+  pbs: 'paddingBlockStart',
+  pis: 'paddingInlineStart',
+  pbe: 'paddingBlockEnd',
+  pie: 'paddingInlineEnd',
   px: ['paddingLeft', 'paddingRight'],
   py: ['paddingTop', 'paddingBottom'],
   c: 'color',
@@ -76,6 +84,10 @@ export interface GenericStyles {
   mr?: MeasureUnit | Property.MarginRight;
   mb?: MeasureUnit | Property.MarginBottom;
   ml?: MeasureUnit | Property.MarginLeft;
+  mbs?: MeasureUnit | Property.MarginBlockStart;
+  mis?: MeasureUnit | Property.MarginInlineStart;
+  mbe?: MeasureUnit | Property.MarginBlockEnd;
+  mie?: MeasureUnit | Property.MarginInlineEnd;
   mx?: MeasureUnit | Property.MarginLeft | [Property.MarginLeft, Property.MarginRight];
   my?: MeasureUnit | Property.MarginTop | [Property.MarginTop, Property.MarginBottom];
   p?: MeasureUnit | Property.Padding;
@@ -83,6 +95,10 @@ export interface GenericStyles {
   pr?: MeasureUnit | Property.PaddingRight;
   pb?: MeasureUnit | Property.PaddingBottom;
   pl?: MeasureUnit | Property.PaddingLeft;
+  pbs?: MeasureUnit | Property.PaddingBlockStart;
+  pis?: MeasureUnit | Property.PaddingInlineStart;
+  pbe?: MeasureUnit | Property.PaddingBlockEnd;
+  pie?: MeasureUnit | Property.PaddingInlineEnd;
   px?: MeasureUnit | Property.PaddingLeft | [Property.PaddingLeft, Property.PaddingRight];
   py?: MeasureUnit | Property.PaddingTop | [Property.PaddingTop, Property.PaddingBottom];
   c?: Property.Color;
