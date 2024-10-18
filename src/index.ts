@@ -56,3 +56,5 @@ declare const styled: CreateStyled;
 export { styled };
 
 export { Space } from './components/Space';
+export { Flex, FlexItem } from './layout/Flex';
+export { Grid } from './layout/Grid';

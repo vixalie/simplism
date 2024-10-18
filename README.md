@@ -8,13 +8,13 @@ The framework provides the following commonly used components for quickly buildi
 
 ### Layout Components
 
-- [ ] `Flex`
+- [x] `Flex`
 - [ ] `Column`
 - [ ] `Row`
 - [ ] `Container`
 - [ ] `Center`
 - [ ] `AspectRatio`
-- [ ] `Grid`
+- [x] `Grid`
 - [x] `Space`
 
 ### Display Components
