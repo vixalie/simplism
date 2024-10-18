@@ -10,17 +10,45 @@ export type {
   TitleLevel,
 } from '@emotion/react';
 export { ThemeProvider } from './global-style';
+export { mq } from './utils/style-predefines';
+export { isFontSizeUnit, isMeasureUnit } from './utils/type-determine';
+export type { AvailableColor, ColorNameChoice } from './utils/types';
 export {
+  em,
+  fontSizeStr,
+  percent,
+  px,
+  radiusStr,
+  rem,
+  spacingStr,
+  titleFontSizeStr,
+  vh,
+  vw,
+} from './utils/unit';
+export {
+  autoContrastColor,
+  backgroundColor,
+  dangerColor,
+  determineColor,
+  determineFontSize,
+  determineGap,
   elevation,
   flex,
+  flexItem,
+  foregroundColor,
   generatePalette,
+  infoColor,
+  lineColor,
   marginHorizontal,
   marginVertical,
-  mq,
   paddingHorizontal,
   paddingVertical,
+  primaryColor,
+  secondaryColor,
+  successColor,
   typography,
-} from './utils/style-predefines';
+  warnColor,
+} from './utils/utilities';
 import { CreateStyled } from '@emotion/styled';
 
 declare const styled: CreateStyled;

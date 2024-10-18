@@ -50,23 +50,34 @@ declare module '@emotion/react' {
    * Defined Theme properties.
    */
   export interface Theme {
+    preferedColorScheme: ColorScheme;
+    /**
+     * Whether enable auto contrast for text color. Will search for the best contrast color in wcagSearchRange palette due to WCAG standard.
+     */
+    autoContrast: boolean;
     colors: Record<ColorName, ColorPalette>;
+    wcagSearchRange: ColorPalette;
     black: string;
     white: string;
-    primaryColor: Record<ColorScheme, ColorPalette>;
-    secondaryColor: Record<ColorScheme, ColorPalette>;
-    backgroundColor: Record<ColorScheme, string>;
-    foregroundColor: Record<ColorScheme, string>;
-    successColor: Record<ColorScheme, string>;
-    warnColor: Record<ColorScheme, string>;
-    dangerColor: Record<ColorScheme, string>;
-    infoColor: Record<ColorScheme, string>;
+    /**
+     * Default shade for the color palette. Tuple value is used for light scheme and dark scheme.
+     */
+    defaultShade: number | [number, number];
+    primaryColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    secondaryColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    backgroundColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    foregroundColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    successColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    warnColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    dangerColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    infoColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
+    lineColor: string | ColorPalette | Record<ColorScheme, string | ColorPalette>;
     spacings: Record<MeasureUnit, number>;
     radius: Record<MeasureUnit, number>;
     fontSizes: Record<FontSizeUnit, number>;
     paragraphFontSize: number;
     titleFontSize: Record<TitleLevel, number>;
     elevations: Record<MeasureUnit, Elevation>;
-    elevationColor: Record<ColorScheme, string>;
+    elevationColor: ColorPalette | Record<ColorScheme, string>;
   }
 }

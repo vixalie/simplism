@@ -84,3 +84,6 @@ The framework provides some convenient tool functions for quickly generating fix
 - [x] Padding functions
 - [x] Margin functions
 - [x] Tyography functions
+- [x] Color functions
+- [x] Auto Contrast
+- [x] Converting utilities.
