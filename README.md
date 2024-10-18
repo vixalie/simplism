@@ -33,7 +33,7 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `Description`
 - [ ] `Table`
 - [ ] `ScrollArea`
-- [ ] `Divider`
+- [x] `Divider`
 - [ ] `Collapse`
 - [ ] `Transition`
 
