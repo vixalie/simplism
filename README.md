@@ -22,6 +22,7 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `Progress`
 - [ ] `RingProgress`
 - [ ] `SemiCircleProgress`
+- [x] `LevelBar`
 - [x] `Avatar`
 - [ ] `Badge`
 - [ ] `Image`

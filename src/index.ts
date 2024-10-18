@@ -57,6 +57,7 @@ export { styled };
 
 export { Button } from './components/Button';
 export { Divider } from './components/Divider';
+export { LevelBar } from './components/LevelBar';
 export { Space } from './components/Space';
 export { Table, TBody, Td, TFoot, Th, THead, Tr } from './components/Table';
 export { Box } from './layout/Box';
