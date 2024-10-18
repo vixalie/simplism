@@ -31,7 +31,7 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `Accordin`
 - [ ] `List`
 - [ ] `Description`
-- [ ] `Table`
+- [x] `Table`
 - [ ] `ScrollArea`
 - [x] `Divider`
 - [ ] `Collapse`

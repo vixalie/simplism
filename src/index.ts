@@ -58,6 +58,7 @@ export { styled };
 export { Button } from './components/Button';
 export { Divider } from './components/Divider';
 export { Space } from './components/Space';
+export { Table, TBody, Td, TFoot, Th, THead, Tr } from './components/Table';
 export { Box } from './layout/Box';
 export { Center } from './layout/Center';
 export { Flex, FlexItem } from './layout/Flex';
