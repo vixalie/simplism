@@ -16,6 +16,7 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `AspectRatio`
 - [x] `Grid`
 - [x] `Space`
+- [x] `Box`
 
 ### Display Components
 
