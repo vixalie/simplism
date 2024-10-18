@@ -87,3 +87,4 @@ The framework provides some convenient tool functions for quickly generating fix
 - [x] Color functions
 - [x] Auto Contrast
 - [x] Converting utilities.
+- [x] Style API for components.
