@@ -52,7 +52,7 @@ The framework provides the following commonly used components for quickly buildi
 - [ ] `Check`
 - [ ] `Radio`
 - [x] `Group`
-- [ ] `Input`
+- [x] `Input`
 - [ ] `Textarea`
 - [ ] `Pin`
 - [ ] `Switch`

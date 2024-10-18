@@ -60,6 +60,7 @@ export { Divider } from './components/Divider';
 export { LevelBar } from './components/LevelBar';
 export { Space } from './components/Space';
 export { Table, TBody, Td, TFoot, Th, THead, Tr } from './components/Table';
+export { Input } from './form/Input';
 export { Box } from './layout/Box';
 export { Center } from './layout/Center';
 export { Flex, FlexItem } from './layout/Flex';
